@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.641666">
+    <testcase classname="To validate the functionality of flipkart to add a product to cart" name="To launch flipkart" time="12.641666">
+        <system-out><![CDATA[Given User should launch flipkart...........................................passed
+When close the popup........................................................passed
+And user should search a product using keyword..............................passed
+And user should add some filters and click a product........................passed
+Then user should navigate to product detail page............................passed
+Then user should Add a product to cart......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

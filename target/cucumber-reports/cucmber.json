@@ -1,0 +1,108 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-07T12:53:36.311Z",
+        "line": 6,
+        "name": "To launch flipkart",
+        "description": "",
+        "id": "to-validate-the-functionality-of-flipkart-to-add-a-product-to-cart;to-launch-flipkart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4206972000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should launch flipkart",
+            "match": {
+              "location": "Stepdefnition.user_should_launch_flipkart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163160700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the popup",
+            "match": {
+              "location": "Stepdefnition.close_the_popup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 235737300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should search a product using keyword",
+            "match": {
+              "location": "Stepdefnition.user_should_search_a_product_using_keyword(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "iphone"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5447713200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should add some filters and click a product",
+            "match": {
+              "location": "Stepdefnition.user_should_add_some_filters_and_click_a_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 236150200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should navigate to product detail page",
+            "match": {
+              "location": "Stepdefnition.userShouldNavigateToproductDetailPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2300650200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should Add a product to cart",
+            "match": {
+              "location": "Stepdefnition.user_should_Add_a_product_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the functionality of flipkart to add a product to cart",
+    "description": "",
+    "id": "to-validate-the-functionality-of-flipkart-to-add-a-product-to-cart",
+    "keyword": "Feature",
+    "uri": "file:Feauture/flipkart.feature",
+    "tags": []
+  }
+]
